@@ -12,6 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
+        let viewBackImage = {() -> UIImageView in
+            
+            let imageView = UIImageView(frame: CGRect(x: view.frame.minX, y: view.frame.minY, width: view.frame.width, height: view.frame.height))
+            imageView.image = UIImage(named: "haikei01")
+            imageView.contentMode = .scaleToFill
+             return imageView
+        }()
+        view.addSubview(viewBackImage)
+        
         let animationStartButton = {() -> UIButton in
             
             let button = UIButton(frame: CGRect(x: view.frame.maxX / 4, y: view.frame.maxX / 3, width: view.frame.width / 2, height: view.frame.height / 20))
