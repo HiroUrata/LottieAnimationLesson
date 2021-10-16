@@ -11,7 +11,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       
+        let animationStartButton = {() -> UIButton in
+            
+            let button = UIButton(frame: CGRect(x: view.frame.maxX / 4, y: view.frame.maxX / 3, width: view.frame.width / 2, height: view.frame.height / 20))
+            button.setTitle("Start", for: .normal)
+            button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+            button.titleLabel?.textColor = .white
+            button.backgroundColor = .systemGreen
+            button.layer.cornerRadius = 15.0
+            button.layer.shadowOffset = CGSize(width: 5, height: 5)
+            button.layer.shadowRadius = 5.0
+            button.layer.shadowOpacity = 0.8
+            return button
+        }()
+        view.addSubview(animationStartButton)
     }
 
 
