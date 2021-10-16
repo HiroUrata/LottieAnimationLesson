@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		5483FCDE271AC416000949D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5483FCDC271AC416000949D2 /* Main.storyboard */; };
 		5483FCE0271AC419000949D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5483FCDF271AC419000949D2 /* Assets.xcassets */; };
 		5483FCE3271AC419000949D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5483FCE1271AC419000949D2 /* LaunchScreen.storyboard */; };
+		5483FCEB271ACBD8000949D2 /* Lottie01.json in Resources */ = {isa = PBXBuildFile; fileRef = 5483FCEA271ACBD8000949D2 /* Lottie01.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		5483FCDF271AC419000949D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5483FCE2271AC419000949D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5483FCE4271AC419000949D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5483FCEA271ACBD8000949D2 /* Lottie01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Lottie01.json; sourceTree = "<group>"; };
 		6C145598B04A7754B63A0BA1 /* Pods-LottieAnimationLesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationLesson.debug.xcconfig"; path = "Target Support Files/Pods-LottieAnimationLesson/Pods-LottieAnimationLesson.debug.xcconfig"; sourceTree = "<group>"; };
 		777B34122BA741B3E202BFEC /* Pods_LottieAnimationLesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieAnimationLesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF15E4771E9416E8BF58C58 /* Pods-LottieAnimationLesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieAnimationLesson.release.xcconfig"; path = "Target Support Files/Pods-LottieAnimationLesson/Pods-LottieAnimationLesson.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				6C145598B04A7754B63A0BA1 /* Pods-LottieAnimationLesson.debug.xcconfig */,
 				9AF15E4771E9416E8BF58C58 /* Pods-LottieAnimationLesson.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +81,7 @@
 				5483FCDF271AC419000949D2 /* Assets.xcassets */,
 				5483FCE1271AC419000949D2 /* LaunchScreen.storyboard */,
 				5483FCE4271AC419000949D2 /* Info.plist */,
+				5483FCEA271ACBD8000949D2 /* Lottie01.json */,
 			);
 			path = LottieAnimationLesson;
 			sourceTree = "<group>";
@@ -153,6 +155,7 @@
 			files = (
 				5483FCE3271AC419000949D2 /* LaunchScreen.storyboard in Resources */,
 				5483FCE0271AC419000949D2 /* Assets.xcassets in Resources */,
+				5483FCEB271ACBD8000949D2 /* Lottie01.json in Resources */,
 				5483FCDE271AC416000949D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
